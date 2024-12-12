@@ -1,6 +1,6 @@
-##Integrate Jenkins with Docker and Github
+## Integrate Jenkins with Docker and Github
 
-##Overview
+## Overview
 
 This project demonstrates how to integrate Jenkins with GitHub, Docker, and Docker Hub to automate the process of building, testing, dockerizing, and deploying a Java application.
 
