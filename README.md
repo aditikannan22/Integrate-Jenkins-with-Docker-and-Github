@@ -59,4 +59,6 @@ Create a step with execute shell to login to DockerHub with the provided credent
 Click on Save
 
 ## Building the Project
-Any changed pushed to the repository will trigger a build. Jenkins polls for changes every 5 minutes.
+Any changes pushed to the repository will trigger a build. Jenkins polls for changes every 5 minutes.
+
+Thus the pipeline is automated
