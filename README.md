@@ -43,3 +43,18 @@ Add GitHub repository URL
 Build Triggers
 Select Poll SCM
 Set schedule: H/5 * * * *
+
+Set Git and Docker Credentials as Environment Variables in the Build Environment
+
+## Build Steps
+Create a step with execute shell to change the directory to src
+
+Invoke a maven target with goal as "-f src/pom.xml clean install"
+
+Invoke another maven target with goals as "-f src/pom.xml test"
+
+Create a step with execute shell to login to DockerHub with the provided credentials, build the image with the correct tag and push it to DockerHub
+Click on Save
+
+## Building the Project
+Any changed pushed to the repository will trigger a build. Jenkins polls for changes every 5 minutes.
